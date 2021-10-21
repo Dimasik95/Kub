@@ -1,0 +1,49 @@
+  #table {
+  background:deepskyblue;
+  }
+  .flex { 
+  display: flex;
+  flex-direction: column;
+  }
+  .row {
+  display: flex;
+  flex-direction: row;
+  }
+  #delete-column {
+  background-color:red;
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 31;
+  }
+  #delete-row {
+  background-color: red; 
+  color: white;
+  width: 30px;
+  height: 30px;
+  align-self:flex-end;
+  }
+  #add-row {
+  background-color:gold;
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 31;
+  }
+  #add-column {
+  background-color:gold;
+  color: white;
+  width: 30px;
+  height: 30px;
+  }
+  td {
+  border: 1px solid white;
+  width: 25px;
+  height: 28px;
+  }
+  th {
+  border: 1px solid white;
+  width: 25px;
+  height: 28px;
+  }
+  
