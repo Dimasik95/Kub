@@ -1,46 +1,75 @@
   #table {
   background:deepskyblue;
   }
-  .flex { 
-  display: flex;
-  flex-direction: column;
-  }
-  .row {
-  display: flex;
-  flex-direction: row;
-  }
+
   #delete-column {
+  background-color:rgb(243, 162, 162);
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 31;
+  cursor: pointer;
+  transition: 0.2s;
+  visibility: hidden;
+  position: relative;
+  }
+  #delete-column:hover {
   background-color:red;
-  color: white;
-  width: 30px;
-  height: 30px;
-  margin-left: 31;
   }
+
   #delete-row {
-  background-color: red; 
+  background-color:rgb(243, 162, 162); 
   color: white;
   width: 30px;
   height: 30px;
-  align-self:flex-end;
+  cursor: pointer;
+  transition: 0.2s;
+  visibility: hidden;
+  position: relative;
   }
+  #delete-row:hover {
+  background-color:red;
+  }
+
   #add-row {
-  background-color:gold;
+  background-color:rgb(250, 239, 176);
   color: white;
   width: 30px;
   height: 30px;
-  margin-left: 31;
+  cursor: pointer;
+  transition: 0.7s;
+  margin: 2px 31px;
+  border: white;
   }
+  #add-row:hover {
+  background-color:gold;
+  }
+
   #add-column {
-  background-color:gold;
+  background-color:rgb(250, 239, 176);
   color: white;
   width: 30px;
   height: 30px;
+  cursor: pointer;
+  transition: 0.7s;
+  margin: 1px 2px;
+  border: white;
   }
+  #add-column:hover {
+    background-color:gold;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
   td {
   border: 1px solid white;
   width: 25px;
   height: 28px;
   }
+
   th {
   border: 1px solid white;
   width: 25px;
